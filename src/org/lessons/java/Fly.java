@@ -1,5 +1,5 @@
 package org.lessons.java;
 
 public interface Fly {
-     void flying();
+     public void flying();
 }
