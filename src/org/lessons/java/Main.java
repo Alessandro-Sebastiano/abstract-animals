@@ -24,6 +24,7 @@ public class Main {
 
         eagle.speak();
         eagle.eat();
+        eagle.flying();
         eagle.sleep();
 
         System.out.println();
@@ -32,6 +33,7 @@ public class Main {
 
         dolphin.speak();
         dolphin.eat();
+        dolphin.swimming();
         dolphin.sleep();
     }
 
