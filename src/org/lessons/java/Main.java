@@ -2,6 +2,15 @@ package org.lessons.java;
 
 public class Main {
 
+    public static void faiVolare(Fly animal){
+        animal.flying();
+    }
+
+    public static void faiNuotare(Swim animal){
+        animal.swimming();
+    }
+
+
     public static void main(String[] arg){
 
         Cane dog = new Cane();
@@ -35,6 +44,10 @@ public class Main {
         dolphin.eat();
         dolphin.swimming();
         dolphin.sleep();
+
+        faiVolare(eagle);
+        faiNuotare(dolphin);
+
     }
 
 }
